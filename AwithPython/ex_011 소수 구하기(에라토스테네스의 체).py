@@ -18,7 +18,8 @@ def calc_prime(number):
         i = i + 1
     for i in range(0, len(check)):
         if check[i] == TRUE:
-            print(i)
+            print(i, end = ' ')
+    print()
     print("소수의 갯수는: %d"%check.count(TRUE))
     
 if __name__ == "__main__":
